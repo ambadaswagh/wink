@@ -1,0 +1,1 @@
+type MerchantUser = MerchantUserRow;

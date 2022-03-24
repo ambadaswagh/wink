@@ -1,0 +1,388 @@
+@import '../index.scss';
+
+$secondary: #7f00ff;
+$accent: #797bf2;
+
+$white: #fff;
+$smoke-white: #fcfcfc;
+$light-white: #f9f9f9;
+
+$placeholder: #cecece;
+$grey-white: #f2f2f2;
+$muted-grey: #999;
+$fade-grey: #ededed;
+$widget-grey: #f5f6fa;
+$dashboard-grey: #f4f6fb;
+$support-grey: #acbfc5;
+$support-grey-light: #dee3e7;
+
+$border: darken($fade-grey, 3%);
+$border-alt: #e5e5e5;
+
+$dark-text: #283252;
+$blue-grey: #444f60;
+$medium-text: #757a91;
+$light-text: #a2a5b9;
+
+$dark-dark-text: #aaaab3;
+
+$h-purple: #8269b2;
+$h-blue: #37c3ff;
+$h-red: #f92b60;
+$h-orange: #ffa981;
+$h-yellow: #ffd66e;
+$h-green: #93e088;
+$h-pink: #ff9eb8;
+$h-light-blue: #77d2f3;
+
+$dark: #344258;
+$dark-sidebar: #232326;
+$dark-dark-text: #aaaab3;
+
+$font: 'Roboto', sans-serif;
+$font-alt: 'Montserrat', sans-serif;
+
+/* Dashkit | 2020-2021 | CSS Ninja */
+/*
+    1. Base Shadows
+    2. State Shadows
+    3. Stack Shadows
+    4. Brand Shadows
+    5. Additional Colors Shadows
+*/
+/* ==========================================================================
+1. Base Shadows
+========================================================================== */
+//Base shadow
+$base-shadow: rgba(0, 0, 0, 0.12);
+
+//Light
+$light-box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.06);
+$light-box-shadow-md: -1px 3px 10px 0 rgba(0, 0, 0, 0.12);
+
+//Medium
+$medium-box-shadow: rgba(0, 0, 0, 0.15) 0px 16px 32px, rgba(0, 0, 0, 0.1) 0px 3px 8px;
+
+//Primary
+$primary-shadow-from: rgba($primary, 0.42);
+$primary-shadow-to: rgba($primary, 0.2);
+$primary-box-shadow: 0 14px 26px -12px $primary-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $primary-shadow-to;
+
+//Secondary
+$secondary-shadow-from: rgba($secondary, 0.42);
+$secondary-shadow-to: rgba($secondary, 0.2);
+$secondary-box-shadow: 0 14px 26px -12px $secondary-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $secondary-shadow-to;
+
+//Accent
+$accent-shadow-from: rgba($accent, 0.42);
+$accent-shadow-to: rgba($accent, 0.2);
+$accent-box-shadow: 0 14px 26px -12px $accent-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $accent-shadow-to;
+
+/* ==========================================================================
+2. State Shadows
+========================================================================== */
+
+//Success
+$success-shadow-from: rgba($success, 0.42);
+$success-shadow-to: rgba($success, 0.2);
+$success-box-shadow: 0 14px 26px -12px $success-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $success-shadow-to !important;
+
+//Info
+$info-shadow-from: rgba($info, 0.42);
+$info-shadow-to: rgba($info, 0.2);
+$info-box-shadow: 0 14px 26px -12px $info-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $info-shadow-to !important;
+
+//Warning
+$warning-shadow-from: rgba($warning, 0.42);
+$warning-shadow-to: rgba($warning, 0.2);
+$warning-box-shadow: 0 14px 26px -12px $warning-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $warning-shadow-to !important;
+
+//Danger
+$danger-shadow-from: rgba($danger, 0.42);
+$danger-shadow-to: rgba($danger, 0.2);
+$danger-box-shadow: 0 14px 26px -12px $danger-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $danger-shadow-to !important;
+
+/* ==========================================================================
+3. Stack Shadows
+========================================================================== */
+
+/* ==========================================================================
+4. Brand Shadows
+========================================================================== */
+
+/* ==========================================================================
+5. Additional Colors Shadows
+========================================================================== */
+
+//Orange
+$warning-shadow-from: rgba($warning, 0.42);
+$warning-shadow-to: rgba($warning, 0.2);
+$warning-box-shadow: 0 14px 26px -12px $warning-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $warning-shadow-to !important;
+
+//Green
+$success-shadow-from: rgba($success, 0.42);
+$success-shadow-to: rgba($success, 0.2);
+$success-box-shadow: 0 14px 26px -12px $success-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $success-shadow-to !important;
+
+//h-blue
+$h-blue-shadow-from: rgba($h-blue, 0.42);
+$h-blue-shadow-to: rgba($h-blue, 0.2);
+$h-blue-box-shadow: 0 14px 26px -12px $h-blue-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $h-blue-shadow-to !important;
+
+//h-orange
+$h-orange-shadow-from: rgba($h-orange, 0.42);
+$h-orange-shadow-to: rgba($h-orange, 0.2);
+$h-orange-box-shadow: 0 14px 26px -12px $h-orange-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $h-orange-shadow-to !important;
+
+//h-green
+$h-green-shadow-from: rgba($h-green, 0.42);
+$h-green-shadow-to: rgba($h-green, 0.2);
+$h-green-box-shadow: 0 14px 26px -12px $h-green-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $h-green-shadow-to !important;
+
+//h-purple
+$h-purple-shadow-from: rgba($h-purple, 0.42);
+$h-purple-shadow-to: rgba($h-purple, 0.2);
+$h-purple-box-shadow: 0 14px 26px -12px $h-purple-shadow-from, 0 4px 23px 0px $base-shadow,
+  0 8px 10px -5px $h-purple-shadow-to !important;
+
+.has-light-shadow {
+  box-shadow: $light-box-shadow;
+
+  &.has-light-border {
+    border: 1px solid darken($fade-grey, 3%);
+  }
+}
+
+/* Dashkit | 2020-2021 | CSS Ninja */
+
+/*
+    1. Card
+    2. Box
+    3. Flex Card
+*/
+
+/* ==========================================================================
+1. Card
+========================================================================== */
+
+.card {
+  box-shadow: $light-box-shadow;
+  border: 1px solid $border;
+
+  .card-footer {
+    .card-footer-item {
+      color: $medium-text;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $primary;
+        background: $widget-grey;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+2. Box
+========================================================================== */
+
+.box {
+  box-shadow: $light-box-shadow;
+  border: 1px solid $border;
+}
+
+/* ==========================================================================
+3. Flex Card
+========================================================================== */
+
+.flex-card {
+  position: relative;
+  background-color: $white;
+  border: 1px solid $border;
+  border-radius: 0.5rem;
+  position: relative;
+  width: 100%;
+  transition: all 0.5s;
+
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    &.is-bordered {
+      border-bottom: 1px solid $border;
+    }
+
+    &.is-spaced {
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-family: $font-alt;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: $blue-grey;
+    }
+  }
+}
+/*! Dashkit | Css ninja 2020-2021 */
+
+/* ==========================================================================
+Dashboard page
+========================================================================== */
+
+/***
+TABLE OF CONTENTS
+=============================================================================
+0. Tiles
+=============================================================================
+***/
+
+/* ==========================================================================
+0. Tiles
+========================================================================== */
+
+.dashboard-tiles {
+  padding-top: 20px;
+
+  .dashboard-tile {
+    @extend .flex-card;
+
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    overflow: visible !important;
+
+    .icon-header i {
+      position: absolute;
+      top: -16px;
+      left: 12px;
+      padding: 22px;
+      font-size: 24px;
+      font-weight: normal;
+      color: $white;
+      border-radius: 0.85rem;
+
+      &.primary {
+        background-color: $primary;
+        box-shadow: $primary-box-shadow;
+      }
+
+      &.secondary {
+        background-color: $secondary;
+        box-shadow: $secondary-box-shadow;
+      }
+
+      &.accent {
+        background-color: $accent;
+        box-shadow: $accent-box-shadow;
+      }
+    }
+
+    .tile-content {
+      margin-left: 80px;
+
+      h3 {
+        font-family: $font-alt;
+        font-size: 1.4rem;
+        color: $blue-grey;
+      }
+
+      p {
+        font-family: $font;
+
+        span {
+          &:first-child {
+            font-family: $font;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: $blue-grey;
+          }
+
+          &:nth-child(2) {
+            color: $light-text;
+          }
+        }
+      }
+    }
+
+    .view-all-button {
+      position: absolute;
+      top: -12px;
+      right: 18px;
+      height: 36px;
+      width: 36px;
+      border-radius: 50%;
+      border: 1px solid $border;
+      background: $white;
+      box-shadow: $light-box-shadow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.3s;
+
+      &:hover {
+        background: $secondary;
+        box-shadow: $secondary-box-shadow;
+
+        i {
+          color: $white;
+        }
+      }
+
+      i {
+        color: $light-text;
+        transition: color 0.3s;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .dashboard-tiles {
+    padding-top: 20px !important;
+
+    .dashboard-tile {
+      .icon-header i {
+        top: -10px !important;
+        left: -12px !important;
+        padding: 16px !important;
+        font-size: 20px !important;
+      }
+
+      .tile-content {
+        margin-left: 40px !important;
+
+        h3 {
+          font-size: 1.2rem !important;
+        }
+
+        p {
+          span {
+            &:first-child {
+              font-size: 1.3rem !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

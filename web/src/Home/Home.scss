@@ -1,0 +1,106 @@
+@import '../index.scss';
+
+$secondary: #ffffff;
+$secondary-text: $primary-invert;
+
+.hero-secondary {
+  background-color: $secondary;
+
+  h1,
+  span {
+    color: $secondary-text !important;
+  }
+}
+
+.news-box {
+  width: 35%;
+  height: fit-content;
+  text-align: center;
+}
+.news-font {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(40, 40, 40);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-fontsize {
+  font-size: 18px;
+}
+
+.heading-toptitle {
+  font-size: 3rem;
+}
+
+.div-arrows {
+  margin-top: 10px;
+  margin-left: 40px;
+
+  .div-arrow {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .heading-toptitle {
+    font-size: 1.2rem !important;
+  }
+
+  .div-arrows {
+    .div-arrow {
+      margin-top: 14px !important;
+      font-size: 1rem !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 341px) and (max-width: 400px) {
+  .heading-toptitle {
+    font-size: 1.5rem !important;
+  }
+
+  .div-arrows {
+    margin-top: 0px !important;
+
+    .div-arrow {
+      margin-top: 18px !important;
+      font-size: 1.2rem !important;
+    }
+  }
+
+  .div-header-button {
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .div-arrows {
+    margin-top: 30px !important;
+  }
+  .div-waitlist-form {
+    margin: 30px !important;
+  }
+
+  .div-waitlist-form-sub {
+    margin-top: -40px !important;
+  }
+
+  .mobile-hidden {
+    display: none !important;
+  }
+
+  .mobile-bottompad {
+    padding-bottom: 0 !important;
+  }
+
+  .mobile-fontsize {
+    font-size: 14px !important;
+  }
+
+  .logo-pad {
+    padding-left: 1.5rem;
+  }
+}

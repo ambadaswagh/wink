@@ -1,0 +1,26 @@
+td.typesCell {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.typesCell > i {
+  margin-right: 3px;
+}
+
+td.textCell {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 300px;
+}
+
+td.ratingsCell {
+  font-size: 5px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+td.priceCell {
+  white-space: nowrap;
+  vertical-align: middle;
+}

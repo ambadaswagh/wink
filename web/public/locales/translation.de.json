@@ -1,0 +1,14 @@
+{
+  "an-error-occurred": "Ein Fehler ist aufgetreten",
+  "following-error-order": "Beim Lesen der Bestellung ist folgender Fehler aufgetreten:",
+  "ask-waiter-assistance": "Bitten Sie Ihren Kellner*in um Hilfe.",
+  "wait-retrieving-order": "Bitte warten Sie, Ihre Bestellung wird abgerufen...",
+  "pay-now": "Bezahlen",
+  "checkout-order-total": "Bestellung Total",
+  "Table": "Tisch",
+  "cookie-banner": "Um unsere Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwenden wir Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu.",
+  "cookie-banner-policy-link": "Weitere Informationen zu Cookies erhalten Sie in unserer <a>Datenschutzerklärung</a>.",
+  "cookie-banner-accept": "Ich stimme zu",
+  "impressum-title": "Impressum",
+  "privacy-policy": "Datenschutzerklärung"
+}

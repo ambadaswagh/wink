@@ -1,0 +1,12 @@
+@import '../index.scss';
+
+.mainContent {
+  margin-top: 20px;
+}
+.choiceCard {
+  height: 100%;
+  cursor: pointer;
+}
+.choiceCard:hover {
+  background-color: $primary;
+}
